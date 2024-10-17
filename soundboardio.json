@@ -17,10 +17,10 @@
   "rootUrl": "sounds/",
   "icons": [
     {
-      "src": "/icons/265x265.png",
+      "src": "/icons/265x265.jpg",
       "sizes": "265x265",
       "purpose": "maskable any",
-      "type": "image/png"
+      "type": "image/jpeg"
     },
     {
       "src": "/icons/48x48.png",
