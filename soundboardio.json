@@ -1,198 +1,279 @@
 {
-    "name": "Vlastík Plamínek",
-    "shortName": "Plamínek",
-    "description": "Já mám pruh, ty máš pruh, máme pruhy. Já ten druhý!",
-    "author": {
-      "name": "Krakenus",
-      "url": "https://github.com/Krakenus"
+  "name": "Vlastík Plamínek",
+  "shortName": "Plamínek",
+  "description": "Já mám pruh, ty máš pruh, máme pruhy. Já ten druhý!",
+  "author": {
+    "name": "Krakenus",
+    "url": "https://github.com/Krakenus"
+  },
+  "color": "#cc5200",
+  "version": "1.0.1",
+  "lang": "cs",
+  "rootUrl": "sounds/",
+  "icons": [
+    {
+      "src": "/icons/265x265.png",
+      "sizes": "265x265",
+      "purpose": "maskable any",
+      "type": "image/png"
     },
-    "color": "#cc5200",
-    "version": "1.0.0",
-    "lang": "cs",
-    "rootUrl": "sounds/",
-    "icons": [
-      {
-        "src": "/icons/icon.png",
-        "sizes": "48x48",
-        "purpose": "48x48",
-        "type": "image/png"
-      },
-      {
-        "src": "/icons/144x144.png",
-        "sizes": "144x144",
-        "type": "image/png"
-      }
-    ],
-    "tiles": [
-      {
-        "name": "Zkusím to Štěně",
-        "filename": "101-zkusim_stene.mp3",
-        "tags": ["Štěně"]
-      },
-      {
-        "name": "Šššššš",
-        "filename": "102-ssss.mp3",
-        "tags": ["Štěně"]
-      },
-      {
-        "name": "Štěně",
-        "filename": "103-stene.mp3",
-        "tags": ["Štěně"]
-      },
-      {
-        "name": "Štěněněně... štěně!",
-        "filename": "104-stenenene_stene.mp3",
-        "tags": ["Štěně"]
-      },
-      {
-        "name": "Štěněěěěě...",
-        "filename": "105-steneeeee.mp3",
-        "tags": ["Štěně"]
-      },
-      {
-        "name": "Štěně!",
-        "filename": "106-stene_shout_out.mp3",
-        "tags": ["Štěně"]
-      },
-      {
-        "name": "Třeba takhle",
-        "filename": "107-treba_takhle.mp3",
-        "tags": ["Štěně"]
-      },
-      {
-        "name": "Chobotnice bude pro vás připravena",
-        "filename": "201-chobotnice_pripravena.mp3",
-        "tags": ["Chobotnice"]
-      },
-      {
-        "name": "Chobotnice bude ztvárněna",
-        "filename": "202-chobotnice_ztvarnena.mp3",
-        "tags": ["Chobotnice"]
-      },
-      {
-        "name": "Všude je voda!",
-        "filename": "203-vsude_je_voda.mp3",
-        "tags": ["Chobotnice"]
-      },
-      {
-        "name": "A leze to na mě",
-        "filename": "204-leze_to_na_me.mp3",
-        "tags": ["Chobotnice"]
-      },
-      {
-        "name": "A leze to po mě",
-        "filename": "205-leze_to_po_me.mp3",
-        "tags": ["Chobotnice"]
-      },
-      {
-        "name": "A nemá to nohy",
-        "filename": "206-nema_to_nohy.mp3",
-        "tags": ["Chobotnice"]
-      },
-      {
-        "name": "Brrroujááá!",
-        "filename": "207-brroujaaa.mp3",
-        "tags": ["Chobotnice"]
-      },
-      {
-        "name": "Cho cho cho bbotnicce",
-        "filename": "208-chochochobbotnicce.mp3",
-        "tags": ["Chobotnice"]
-      },
-      {
-        "name": "Chobotnice leze po mě ve vodě a nemá to nohy",
-        "filename": "209-chobotnice_leze_po_me_ve_vode.mp3",
-        "tags": ["Chobotnice"]
-      },
-      {
-        "name": "Nohy!",
-        "filename": "210-nohy.mp3",
-        "tags": ["Chobotnice"]
-      },
-      {
-        "name": "Chobotnice nemá nohy a leze",
-        "filename": "211-chobotnice_nema_nohy.mp3",
-        "tags": ["Chobotnice"]
-      },
-      {
-        "name": "Slizká, slizká hromada",
-        "filename": "212-slizka_hromada.mp3",
-        "tags": ["Chobotnice"]
-      },
-      {
-        "name": "Živá hrrromada!",
-        "filename": "213-ziva_hrrrromada.mp3",
-        "tags": ["Chobotnice"]
-      },
-      {
-        "name": "Slizkáááá hromada!",
-        "filename": "214-slizkaaa_hromada.mp3",
-        "tags": ["Chobotnice"]
-      },
-      {
-        "name": "Chobotnice leze po mě ve vovovovo...",
-        "filename": "215-leze_po_me_ve_vovovovo.mp3",
-        "tags": ["Chobotnice"]
-      },
-      {
-        "name": "Třeba takhle by se dala vybubnovat chobotnice",
-        "filename": "216-treba_takhle.mp3",
-        "tags": ["Chobotnice"]
-      },
-      {
-        "name": "Í bako tako",
-        "filename": "301-i_bako_tako.mp3",
-        "tags": ["Í bako tako", "Kraus"]
-      },
-      {
-        "name": "Í bako štěně",
-        "filename": "302-i_bako_stene.mp3",
-        "tags": ["Í bako tako", "Kraus", "Štěně"]
-      },
-      {
-        "name": "Í bako tako show s Krausem jááá!",
-        "filename": "303-i_bako_show.mp3",
-        "tags": ["Í bako tako", "Kraus"]
-      }, 
-      {
-        "name": "Í bako tako (feat. J. Kraus)",
-        "filename": "304-i_bako_kraus.mp3",
-        "tags": ["Í bako tako", "Kraus"]
-      },
-      {
-        "name": "Já mám pruh, ty máš pruh",
-        "filename": "401-ja_mam_pruh.mp3",
-        "tags": ["Zebra"]
-      },
-      {
-        "name": "Ze ze ze zé zé zebra!",
-        "filename": "402-ze_ze_zebra.mp3",
-        "tags": ["Zebra"]
-      },
-      {
-        "name": "Naladil jsem to, ale blbě",
-        "filename": "501-naladil_jsem_to_blbe.mp3",
-        "tags": ["Kraus", "Zebra"]
-      },
-      {
-        "name": "Já mám pruh, ty máš pruh v2",
-        "filename": "502-ja_mam_pruh_v2.mp3",
-        "tags": ["Kraus", "Zebra"]
-      },
-      {
-        "name": "Ze ze ze zé zé zebra! v2",
-        "filename": "503-ze_ze_zebra_v2.mp3",
-        "tags": ["Kraus", "Zebra"]
-      },
-      {
-        "name": "Mák mák",
-        "filename": "601-mak_mak.mp3",
-        "tags": ["Mák"]
-      },
-      {
-        "name": "Jsem mák",
-        "filename": "602-jsem_mak.mp3",
-        "tags": ["Mák"]
-      }
-    ]
-  }
+    {
+      "src": "/icons/48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "tiles": [
+    {
+      "name": "Zkusím to Štěně",
+      "filename": "101-zkusim_stene.mp3",
+      "tags": [
+        "Štěně"
+      ]
+    },
+    {
+      "name": "Šššššš",
+      "filename": "102-ssss.mp3",
+      "tags": [
+        "Štěně"
+      ]
+    },
+    {
+      "name": "Štěně",
+      "filename": "103-stene.mp3",
+      "tags": [
+        "Štěně"
+      ]
+    },
+    {
+      "name": "Štěněněně... štěně!",
+      "filename": "104-stenenene_stene.mp3",
+      "tags": [
+        "Štěně"
+      ]
+    },
+    {
+      "name": "Štěněěěěě...",
+      "filename": "105-steneeeee.mp3",
+      "tags": [
+        "Štěně"
+      ]
+    },
+    {
+      "name": "Štěně!",
+      "filename": "106-stene_shout_out.mp3",
+      "tags": [
+        "Štěně"
+      ]
+    },
+    {
+      "name": "Třeba takhle",
+      "filename": "107-treba_takhle.mp3",
+      "tags": [
+        "Štěně"
+      ]
+    },
+    {
+      "name": "Chobotnice bude pro vás připravena",
+      "filename": "201-chobotnice_pripravena.mp3",
+      "tags": [
+        "Chobotnice"
+      ]
+    },
+    {
+      "name": "Chobotnice bude ztvárněna",
+      "filename": "202-chobotnice_ztvarnena.mp3",
+      "tags": [
+        "Chobotnice"
+      ]
+    },
+    {
+      "name": "Všude je voda!",
+      "filename": "203-vsude_je_voda.mp3",
+      "tags": [
+        "Chobotnice"
+      ]
+    },
+    {
+      "name": "A leze to na mě",
+      "filename": "204-leze_to_na_me.mp3",
+      "tags": [
+        "Chobotnice"
+      ]
+    },
+    {
+      "name": "A leze to po mě",
+      "filename": "205-leze_to_po_me.mp3",
+      "tags": [
+        "Chobotnice"
+      ]
+    },
+    {
+      "name": "A nemá to nohy",
+      "filename": "206-nema_to_nohy.mp3",
+      "tags": [
+        "Chobotnice"
+      ]
+    },
+    {
+      "name": "Brrroujááá!",
+      "filename": "207-brroujaaa.mp3",
+      "tags": [
+        "Chobotnice"
+      ]
+    },
+    {
+      "name": "Cho cho cho bbotnicce",
+      "filename": "208-chochochobbotnicce.mp3",
+      "tags": [
+        "Chobotnice"
+      ]
+    },
+    {
+      "name": "Chobotnice leze po mě ve vodě a nemá to nohy",
+      "filename": "209-chobotnice_leze_po_me_ve_vode.mp3",
+      "tags": [
+        "Chobotnice"
+      ]
+    },
+    {
+      "name": "Nohy!",
+      "filename": "210-nohy.mp3",
+      "tags": [
+        "Chobotnice"
+      ]
+    },
+    {
+      "name": "Chobotnice nemá nohy a leze",
+      "filename": "211-chobotnice_nema_nohy.mp3",
+      "tags": [
+        "Chobotnice"
+      ]
+    },
+    {
+      "name": "Slizká, slizká hromada",
+      "filename": "212-slizka_hromada.mp3",
+      "tags": [
+        "Chobotnice"
+      ]
+    },
+    {
+      "name": "Živá hrrromada!",
+      "filename": "213-ziva_hrrrromada.mp3",
+      "tags": [
+        "Chobotnice"
+      ]
+    },
+    {
+      "name": "Slizkáááá hromada!",
+      "filename": "214-slizkaaa_hromada.mp3",
+      "tags": [
+        "Chobotnice"
+      ]
+    },
+    {
+      "name": "Chobotnice leze po mě ve vovovovo...",
+      "filename": "215-leze_po_me_ve_vovovovo.mp3",
+      "tags": [
+        "Chobotnice"
+      ]
+    },
+    {
+      "name": "Třeba takhle by se dala vybubnovat chobotnice",
+      "filename": "216-treba_takhle.mp3",
+      "tags": [
+        "Chobotnice"
+      ]
+    },
+    {
+      "name": "Í bako tako",
+      "filename": "301-i_bako_tako.mp3",
+      "tags": [
+        "Í bako tako",
+        "Kraus"
+      ]
+    },
+    {
+      "name": "Í bako štěně",
+      "filename": "302-i_bako_stene.mp3",
+      "tags": [
+        "Í bako tako",
+        "Kraus",
+        "Štěně"
+      ]
+    },
+    {
+      "name": "Í bako tako show s Krausem jááá!",
+      "filename": "303-i_bako_show.mp3",
+      "tags": [
+        "Í bako tako",
+        "Kraus"
+      ]
+    },
+    {
+      "name": "Í bako tako (feat. J. Kraus)",
+      "filename": "304-i_bako_kraus.mp3",
+      "tags": [
+        "Í bako tako",
+        "Kraus"
+      ]
+    },
+    {
+      "name": "Já mám pruh, ty máš pruh",
+      "filename": "401-ja_mam_pruh.mp3",
+      "tags": [
+        "Zebra"
+      ]
+    },
+    {
+      "name": "Ze ze ze zé zé zebra!",
+      "filename": "402-ze_ze_zebra.mp3",
+      "tags": [
+        "Zebra"
+      ]
+    },
+    {
+      "name": "Naladil jsem to, ale blbě",
+      "filename": "501-naladil_jsem_to_blbe.mp3",
+      "tags": [
+        "Kraus",
+        "Zebra"
+      ]
+    },
+    {
+      "name": "Já mám pruh, ty máš pruh v2",
+      "filename": "502-ja_mam_pruh_v2.mp3",
+      "tags": [
+        "Kraus",
+        "Zebra"
+      ]
+    },
+    {
+      "name": "Ze ze ze zé zé zebra! v2",
+      "filename": "503-ze_ze_zebra_v2.mp3",
+      "tags": [
+        "Kraus",
+        "Zebra"
+      ]
+    },
+    {
+      "name": "Mák mák",
+      "filename": "601-mak_mak.mp3",
+      "tags": [
+        "Mák"
+      ]
+    },
+    {
+      "name": "Jsem mák",
+      "filename": "602-jsem_mak.mp3",
+      "tags": [
+        "Mák"
+      ]
+    }
+  ]
+}
